@@ -1,0 +1,1 @@
+function r(n){return n?(n!=null&&n.toDate?n.toDate():new Date(n)).toLocaleDateString("en-US",{year:"numeric",month:"short",day:"numeric"}):"—"}function o(n){return n?(n!=null&&n.toDate?n.toDate():new Date(n)).toISOString().split("T")[0]:""}function e(n){return n?new Date(n+"T00:00:00"):null}export{e as a,r as f,o as t};
